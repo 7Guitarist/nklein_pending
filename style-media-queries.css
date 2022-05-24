@@ -1,0 +1,403 @@
+/*******************************************************
+*
+* Mobile styles and other media queries
+*
+*******************************************************/
+
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */
+
+@media only screen and (min-width: 992px) {
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Welcome Region */
+
+  .region-welcome-container {
+    display: grid;
+    max-width: 1312px;
+    grid-template-columns: repeat(100, 1fr);
+    margin: 0 auto;
+  }
+  .welcome-primary-section {
+    grid-column: 13/44;
+  }
+  .welcome-secondary-section {
+    grid-column: 51/-9;
+  }
+  /*#endregion Welcome Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Properties Region */
+  .properties-slick-item {
+    display: grid !important;
+    grid-template-columns: repeat(100, minmax(0, 1fr));
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+  }
+
+  .properties-item:nth-of-type(1) {
+    grid-column: 1/60;
+    grid-row: 1;
+  }
+  .properties-item:nth-of-type(2) {
+    grid-column: 60/-2;
+    grid-row: 1;
+  }
+  .properties-item:nth-of-type(3) {
+    grid-column: 1/51;
+    grid-row: 2;
+  }
+  .properties-item:nth-of-type(4) {
+    grid-column: 51/-2;
+    grid-row: 2;
+  }
+
+  /*#endregion Properties Region */
+
+  /*#region Sales Region */
+
+  /*#endregion Sales Region */
+
+  /*#region Testimonial Region */
+
+  .region-testimonials-container {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: repeat(100, minmax(0, 1fr));
+    margin: 0 auto;
+  }
+  .testi-left {
+    grid-column: 1/40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .testimonials-slick {
+    grid-column: 47/73;
+  }
+  .testi-right {
+    grid-column: 77/-1;
+    position: relative;
+  }
+
+  /*#endregion Testimonial Region */
+
+  /*#region News Region */
+
+  .news-gallery-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1560px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    margin: 0 auto;
+  }
+
+  /*#endregion News Region */
+
+  /*#region Media Region */
+
+  .media-wrapper {
+    display: grid !important;
+    max-width: 1290px;
+    grid-template-columns: repeat(100, minmax(0, 1fr));
+    margin: 0 auto;
+  }
+  .media-content {
+    grid-column: 1/42;
+  }
+  .media-video-content {
+    grid-column: 45/-1;
+  }
+
+  .media-gallery-image-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 1594px;
+    grid-row-gap: 0px;
+    grid-column-gap: 5px;
+    margin: 0 auto;
+  }
+
+  /*#endregion Media Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1450px) {
+  /* 1367 */
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Welcome Region */
+
+  /*#endregion Welcome Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region Sales Region */
+
+  /*#endregion Sales Region */
+
+  /*#region Testimonial Region */
+
+  /*#endregion Testimonial Region */
+
+  /*#region News Region */
+
+  /*#endregion News Region */
+
+  /*#region Media Region */
+
+  /*#endregion Media Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1366px) {
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Welcome Region */
+  .site-title {
+    margin-bottom: 25px;
+  }
+  .hp-welcome p:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+  .hp-welcome p {
+    margin-bottom: 30px;
+  }
+
+  /*#endregion Welcome Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region Sales Region */
+
+  /*#endregion Sales Region */
+
+  /*#region Testimonial Region */
+
+  /*#endregion Testimonial Region */
+
+  /*#region News Region */
+  .hp-news .news-image h3 {
+    font-size: 24px;
+    width: 280px;
+  }
+  /*#endregion News Region */
+
+  /*#region Media Region */
+
+  /*#endregion Media Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  .footer-content {
+    padding: 55px 20px 85px;
+  }
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+@media only screen and (max-width: 1199px) {
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Slideshow Region */
+
+  /*#endregion Slideshow Region */
+
+  /*#region Welcome Region */
+  .site-title {
+    margin-bottom: 15px;
+  }
+  .hp-welcome p:nth-of-type(1) {
+    margin-bottom: 10px;
+  }
+  .hp-welcome p {
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+  /*#endregion Welcome Region */
+
+  /*#region Team Region */
+
+  /*#endregion Team Region */
+
+  /*#region Properties Region */
+
+  /*#endregion Properties Region */
+
+  /*#region Sales Region */
+  .hp-sales .sales-slick {
+    padding: 0 10.2vw;
+  }
+
+  /*#endregion Sales Region */
+
+  /*#region Testimonial Region */
+
+  /*#endregion Testimonial Region */
+
+  /*#region News Region */
+  .hp-news .news-image h3 {
+    font-size: 20px;
+    width: 220px;
+  }
+  /*#endregion News Region */
+
+  /*#region Media Region */
+
+  /*#endregion Media Region */
+
+  /*#region Contact Region */
+
+  /*#endregion Contact Region */
+
+  /*#region Footer */
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
+
+/* iPad(portrait) | Galaxy Tab 4(portrait) */
+
+@media only screen and (max-width: 991px) {
+  body.is-open {
+    overflow: auto;
+  }
+
+  #pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a {
+    display: none !important;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .hp-sidebar {
+    display: none;
+  }
+
+  /*#region Header */
+
+  header.header {
+    position: relative;
+    margin-top: 53px;
+    background: #111;
+    padding: 25px 15px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /*#endregion Header */
+
+  /*#region Contact */
+
+  .contact-form .form-md {
+    width: 100%;
+  }
+
+  .contact-form .pad-left,
+  .contact-form .middle-pad-left,
+  .contact-form .pad-right,
+  .contact-form .middle-pad-right {
+    padding: 0;
+  }
+
+  /*#endregion Contact */
+  /* The following are used on inner pages. Please edit carefully. */
+  .aios-mobile-header-wrapper {
+    z-index: 1020 !important;
+  }
+
+  .inner {
+    width: 100%;
+  }
+  #content-sidebar,
+  #content-full {
+    width: 100%;
+  }
+  .outer {
+    width: 100%;
+    min-width: 100%;
+  }
+  #content-sidebar #content {
+    width: 100%;
+  }
+}
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */
+
+@media only screen and (max-width: 767px) {
+  /* 481 */
+  .ip-banner .container {
+    width: 100%;
+  }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
+
+@media only screen and (max-width: 480px) {
+  /*#region Global */
+  /*#endregion Global */
+
+  /*#region Footer */
+  /*#endregion Footer */
+  /*#region Fixed smi */
+  /*#endregion Fixed smi */
+}
